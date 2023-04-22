@@ -1,0 +1,27 @@
+{
+  "name": "hms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvs42/Hospital-Management-System.git"
+  },
+  "keywords": [
+    "hms",
+    "hospital",
+    "management",
+    "system",
+    "college",
+    "projects"
+  ],
+  "author": "Harsh Vardhan Singh, Rupali Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvs42/Hospital-Management-System/issues"
+  },
+  "homepage": "https://github.com/hvs42/Hospital-Management-System#readme"
+}
