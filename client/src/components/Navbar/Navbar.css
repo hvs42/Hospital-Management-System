@@ -1,4 +1,42 @@
-.Nav{
-    background-color: rgb(14, 69, 206);
-    width: 100%;
-}
+.navbar {
+    background-color: #003366; /* Dark blue */
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* White */
+    font-weight: bold;
+  }
+  
+  .navbar-nav > li > a {
+    color: #ffffff; /* White */
+    font-weight: bold;
+  }
+  
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    color: #ffffff; /* White */
+    background-color: #cc3300; /* Dark red */
+  }
+  
+  /* Medical-related styles */
+  
+  .navbar {
+    border-bottom: 2px solid #cc3300; /* Dark red */
+  }
+  
+  .navbar-brand:before {
+    content: "\f0f1"; /* FontAwesome stethoscope icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    color: #ffffff; /* White */
+  }
+  
+  .navbar-nav > li > a:before {
+    content: "\f21c"; /* FontAwesome hospital icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    color: #ffffff; /* White */
+  }
+  

@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faStethoscope);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
